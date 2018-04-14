@@ -1,0 +1,6 @@
+framework module cubic_ios {
+  umbrella header "cubic_ios.h"
+
+  export *
+  module * { export * }
+}
