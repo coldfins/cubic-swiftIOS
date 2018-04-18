@@ -1,0 +1,11 @@
+framework module cubic_swift {
+  umbrella header "cubic_swift.h"
+
+  export *
+  module * { export * }
+}
+
+module cubic_swift.Swift {
+    header "cubic_swift-Swift.h"
+    requires objc
+}
